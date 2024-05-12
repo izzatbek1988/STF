@@ -10,6 +10,7 @@
 
         public virtual CategoryEntitiy Category { get; set; }
         public virtual UnitEntitiy Units { get; set; }
+        public virtual List<STFDetails> STFDetails { get; set; }
 
 
 

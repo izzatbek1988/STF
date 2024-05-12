@@ -9,5 +9,6 @@
 
         //relation
         public virtual AppUser AppUser { get; set; }
+        public virtual List<STFDetails> STFDetails { get; set; }
     }
 }
